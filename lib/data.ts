@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import condocube from "@/public/condocube.png";
+import laurence from "@/public/laurence.png";
+import smokey from "@/public/smokey.png";
+import curandeiras from "@/public/curandeiras.png";
+import vagamundo from "@/public/vagamundo.png";
 
 export const links = [
   {
@@ -62,25 +64,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CondoCube",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this startup project for 1 year. Users can compare condo buildings in Miami for investments.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    imageUrl: condocube,
   },
   {
-    title: "rmtDev",
+    title: "Laurence Real Estate",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Real estate website where I built a backend system to manage listings and allow users to search for properties to rent or buy.",
+    tags: ["Wordpress", "Estatik", "Php", "Redux"],
+    imageUrl: laurence,
   },
   {
-    title: "Word Analytics",
+    title: "Smokey Co",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "E-commerce store built on Shopify for POD and dropshipped items, with features like reviews, email automation, cart, and payments.",
+    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    imageUrl: smokey,
+  },
+  {
+    title: "Curandeiras",
+    description:
+      "Desgined and crreated POS for selling courses and books, featuring a blog that combines science and spirituality for practical self-discovery.",
+    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    imageUrl: curandeiras,
+  },
+  {
+    title: "Hostel Vagaumndo",
+    description:
+      "Desgined and built website with features to view hostel room details, nearby attractions, make bookings, contact the hotel, and read the blog.",
+    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    imageUrl: vagamundo,
   },
 ] as const;
 
@@ -94,14 +110,17 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "App Translation",
+  "Stripe",
+  "Clerk",
+  "Tiwilio",
+  "Sendgrid",
+  "Supabase",
   "Framer Motion",
+  "Wordpress",
+  "Shopify",
 ] as const;

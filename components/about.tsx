@@ -36,7 +36,7 @@ export default function About() {
         software developer.
       </p>
 
-      <p>
+      <p className="mb-3">
         <span className="italic">When I'm not coding</span>, I enjoy going to
         the beach, hiking, or grabbing a beer with friends. I also enjoy{" "}
         <span className="font-medium">learning new things</span> and am
@@ -46,6 +46,9 @@ export default function About() {
         </span>
         .
       </p>
+      <span className="font-bold">
+        Proficient in English, Portgues, Spanish and Arabic.
+      </span>
     </motion.section>
   );
 }
