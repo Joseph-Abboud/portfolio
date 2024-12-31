@@ -7,6 +7,7 @@ import laurence from "@/public/laurence.png";
 import smokey from "@/public/smokey.png";
 import curandeiras from "@/public/curandeiras.png";
 import vagamundo from "@/public/vagamundo.png";
+import { IoRocketOutline } from "react-icons/io5";
 
 export const links = [
   {
@@ -37,30 +38,65 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Created First Website",
+    location: "High School Project",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Built my first website in 2013 as a high school project—a blog dedicated to Minecraft tips and tricks. This project sparked my passion for web development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2014",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Freelance Web Developer",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Started freelancing by creating professional websites and landing pages using WordPress and Shopify. During this time, I expanded my stack and honed my coding skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked on small full-stack projects as a contractor and freelancer, developing applications with React, Node.js, MongoDB, and other modern tools. This period helped me refine my full-stack expertise.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022-2023",
+  },
+  {
+    title: "Full-Stack Developer: CondoCube & Inkhub",
+    location: "Remote",
+    description:
+      "Worked long-term on two major projects: CondoCube, a real estate comparison platform, and Inkhub, a SaaS platform for tattoo artists. Built robust systems leveraging React, Next.js, Tailwind, Supabase, and Stripe.",
+    icon: React.createElement(IoRocketOutline),
+    date: "2023 - 2024",
   },
 ] as const;
+
+// export const experiencesData = [
+//   {
+//     title: "Graduated bootcamp",
+//     location: "Miami, FL",
+//     description:
+//       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+//     icon: React.createElement(LuGraduationCap),
+//     date: "2019",
+//   },
+//   {
+//     title: "Front-End Developer",
+//     location: "Orlando, FL",
+//     description:
+//       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+//     icon: React.createElement(CgWorkAlt),
+//     date: "2019 - 2021",
+//   },
+//   {
+//     title: "Full-Stack Developer",
+//     location: "Houston, TX",
+//     description:
+//       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+//     icon: React.createElement(FaReact),
+//     date: "2021 - present",
+//   },
+// ] as const;
 
 export const projectsData = [
   {
@@ -74,14 +110,14 @@ export const projectsData = [
     title: "Laurence Real Estate",
     description:
       "Real estate website where I built a backend system to manage listings and allow users to search for properties to rent or buy.",
-    tags: ["Wordpress", "Estatik", "Php", "Redux"],
+    tags: ["Wordpress", "Estatik", "Php", "Locale"],
     imageUrl: laurence,
   },
   {
     title: "Smokey Co",
     description:
       "E-commerce store built on Shopify for POD and dropshipped items, with features like reviews, email automation, cart, and payments.",
-    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    tags: ["Next.js", "Stripe", "Supabase", "Tailwind", "Shadcn"],
     imageUrl: smokey,
   },
   {
@@ -95,7 +131,7 @@ export const projectsData = [
     title: "Hostel Vagaumndo",
     description:
       "Desgined and built website with features to view hostel room details, nearby attractions, make bookings, contact the hotel, and read the blog.",
-    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    tags: ["React", "Tailwind", "CSS", "Stripe"],
     imageUrl: vagamundo,
   },
 ] as const;

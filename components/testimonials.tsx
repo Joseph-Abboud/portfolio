@@ -34,7 +34,7 @@ const testimonials = [
     quote:
       "At first, I didn't know Joseph was so good; he exceeded my expectations, delivering impeccable work. He knows how to communicate, is professional, and provides high-quality service.",
     name: "Laurence Tors",
-    title: "Real Estate Website",
+    title: "Real Estate Project",
     image: "laur.png",
   },
   {
