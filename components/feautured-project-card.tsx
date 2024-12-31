@@ -70,14 +70,14 @@ export default function MainProjectCard() {
             alt="Founder University Logo"
             width={150}
             height={50}
-            className="object-contain opacity-0 animate-fade-in-up"
+            className="object-contain opacity-0 animate-fade-in-up dark:p-2 dark:bg-white/90 dark:rounded-lg"
           />
           <Image
             src="/google.svg"
             alt="Google Startups Logo"
             width={250}
             height={50}
-            className="object-contain opacity-0 animate-fade-in-up delay-200"
+            className="object-contain opacity-0 animate-fade-in-up dark:p-2 dark:bg-white/90 dark:rounded-lg"
           />
         </div>
       </CardContent>
