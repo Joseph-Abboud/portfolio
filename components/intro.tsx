@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/5.JPG"
+              src="/pp.JPG"
               alt="Joseph portrait"
               width="192"
               height="192"
@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Joseph.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
+        <span className="font-bold">4 years</span> of experience. I enjoy
         building <span className="italic"> beautiful sites & apps</span>. My
         focus is <span className="underline">React (Next.js) and Node.js</span>.
       </motion.h1>
