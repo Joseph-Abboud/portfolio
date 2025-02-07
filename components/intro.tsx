@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pp.JPG"
-              alt="Joseph portrait"
+              src="/pp.jpg"
+              alt="Joseph profile picture"
               width="192"
               height="192"
               quality="95"

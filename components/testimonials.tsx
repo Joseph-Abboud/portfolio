@@ -45,7 +45,8 @@ const testimonials = [
     image: "bruna.jpeg",
   },
   {
-    quote: "Joseph had been a great team member....",
+    quote:
+      "Joseph had been a great team member, he provided clean and organized code in a timely manner. He was always available for questions and feedback. I would recommend him to any team.",
     name: "Gustaf Gyllensporre",
     title: "CondoCube",
     image: "gustaf.png",
