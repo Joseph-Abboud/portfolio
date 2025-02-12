@@ -117,14 +117,14 @@ export const projectsData = [
     title: "Smokey Co",
     description:
       "E-commerce store built on Shopify for POD and dropshipped items, with features like reviews, email automation, cart, and payments.",
-    tags: ["Next.js", "Stripe", "Supabase", "Tailwind", "Shadcn"],
+    tags: ["Next.js", "Stripe", "Supabase", "Tailwind", "Shadcn", "Oberlo"],
     imageUrl: smokey,
   },
   {
     title: "Curandeiras",
     description:
       "Desgined and crreated POS for selling courses and books, featuring a blog that combines science and spirituality for practical self-discovery.",
-    tags: ["Shopify", "Stripe", "Klavyo", "Oberlo", "Printful"],
+    tags: ["Wordpress", "WooCommerce", "MailChimp"],
     imageUrl: curandeiras,
   },
   {
