@@ -10,7 +10,7 @@ import {
   SiStripe,
   SiGmail,
 } from "react-icons/si";
-import { UserCheck } from "lucide-react";
+import { ExternalLink, UserCheck } from "lucide-react";
 
 const techStack = [
   { icon: SiNextdotjs, name: "Next.js" },
@@ -40,7 +40,15 @@ export default function MainProjectCard() {
         />
       </div>
       <CardContent className="p-6">
-        <h2 className="text-2xl font-semibold mb-4">Inkhub</h2>
+        <a
+          href="https://inkhub.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl font-semibold mb-4 flex items-center gap-2 hover:underline dark:text-blue-400 transition-colors"
+        >
+          Inkhub
+          <ExternalLink className="w-5 h-5" />
+        </a>
         <p className="leading-relaxed text-gray-700 dark:text-white/70 mb-6">
           I designed and developed Inkhub, a full-stack SaaS platform for tattoo
           artists, from the ground up in 2024. The project showcases my
