@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "CondoCube",
     description:
-      "I worked as a full-stack developer on this startup project for 1 year. Users can compare condo buildings in Miami for investments.",
+      "I worked as a full-stack developer on a startup project where users can compare condo buildings in Miami for investments.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: condocube,
   },
